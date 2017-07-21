@@ -1,2 +1,3 @@
 # nature-walk-website
-Nature Walk Website
+
+Prototype for Nature Walk App
