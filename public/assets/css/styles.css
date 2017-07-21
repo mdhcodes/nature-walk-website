@@ -1,0 +1,168 @@
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  color: #211d13;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #9ec378;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('/assets/img/park.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  margin: 50px auto 0;
+}
+
+header h1 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+.footprints {
+  width: 50px;
+}
+
+#life-forms {
+  margin: 50px 0;
+}
+
+.park-life {
+  margin: 20px 0 80px;
+}
+
+.park-life img {
+  display: block;
+  /*width: 100%;*/
+  width: 70%;
+  margin: auto; /*Center image horizontally within the figure element*/
+  border: 6px solid #efefef;
+  /***Scale Figure***/
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s; /* property name | duration */
+}
+
+.park-life img:hover {
+  cursor: pointer;
+  cursor: hand;
+  /***Scale Figure***/
+  -moz-transform: scale(.95);
+  -webkit-transform: scale(.95);
+  transform: scale(.95); /* Shrinks element - scaleX(.95) and scaleY(.95) */
+}
+
+.down {
+  margin-top: -20px;
+  padding: 20px;
+}
+
+.back {
+  width: 100px;
+  margin: 0 0 0 80px;
+  padding: 10px;
+  border: 2px solid #98c26d;
+  display: none;
+}
+
+.back:hover {
+  border: 2px solid #083a63;
+}
+
+.click-link {
+  color: #fff;
+}
+
+.underline {
+  border-bottom: 1px solid;
+}
+
+#facts {
+  margin: 0 auto;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+#facts a {
+  color: #083a63;
+}
+
+.more-info {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 60%;
+  clear: both;
+}
+
+.gcs {
+  padding: 10px;
+}
+
+.divider {
+  width: 75%;
+  border-top: 1px solid;
+  color: #083a63;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#find-a-park {
+  margin-top: 40px;
+}
+
+/* STICKY FOOTER */
+/*
+Thank You -
+http://mystrd.at/modern-clean-css-sticky-footer
+https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 40px; /* bottom = footer height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  font-size: 10px;
+  width: 100%;
+  background: #98c26d;
+}
+
+footer a {
+  color: #083a63;
+  border-bottom: 1px dashed;
+}
+
+footer a:hover {
+  color: #2b490d;
+}
+
+/* Using Bootstrap with Google Custom Search - Fix Display
+https://stackoverflow.com/questions/21932819/google-cse-with-twitter-bootstrap-not-displaying-the-search-box-correctly
+*/
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button {
+    box-sizing: content-box;
+    line-height: normal;
+}

@@ -1,0 +1,46 @@
+html,
+body {
+  background: url('/assets/img/park.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.start-adventure {
+  line-height: 1.6;
+}
+
+.start {
+  background-color: #efefef;
+  border: 1px solid #083a63;
+  margin: 40px auto;
+  padding: 20px 10px;
+  font-weight: bold;
+  display: block;
+  width: 200px;
+  color: #083a63;
+}
+
+.start:hover {
+  background: #083a63;
+  border: 1px solid;
+  color: #98c26d;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  font-size: 10px;
+  width: 100%
+}
+
+.footer a {
+  color: #083a63;
+  border-bottom: 1px dashed;
+}
+
+.footer a:hover {
+  color: #2b490d;
+}
