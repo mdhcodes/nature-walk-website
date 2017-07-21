@@ -2,7 +2,7 @@ var showFacts = function(image, imageName) {
 
   // Hide the following elements
   $('#life-forms').css('display', 'none');
-  $('.get-facts h3').html(imageName + ' Facts' );
+  $('header h3').html(imageName + ' Facts' );
   $('#find-a-park').css('display', 'none');
 
   // Display the following elements
