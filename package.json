@@ -2,7 +2,7 @@
   "name": "nature_walk_website",
   "version": "1.0.0",
   "description": "Nature Walk Website",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mdhcodes/nature-walk-website#readme",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.19.2",
     "morgan": "^1.8.2"
   }
 }

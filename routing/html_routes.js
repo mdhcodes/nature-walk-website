@@ -1,6 +1,6 @@
 // Node module to handle file paths and deliver HTML pages to users through routes.
 // Routes identify the paths to the html files.
-var path = require("path");
+const path = require("path");
 
 
 module.exports = function(app) {

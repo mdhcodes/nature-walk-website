@@ -2,15 +2,15 @@
 // Dependencies
 // =============================================================
 // Server framework for Node.js
-var express = require("express");
+const express = require("express");
 
 // Logs errors to the console making it easier to debug during development
-var logger = require("morgan");
+const logger = require("morgan");
 
 // =============================================================
 // Create an express server
 // =============================================================
-var app = express();
+const app = express();
 
 // =============================================================
 // Use morgan
@@ -22,7 +22,7 @@ app.use(logger("dev"));
 // Establish a port
 // =============================================================
 // The PORT will be defined by the deployment site or set to localhost:8080.
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // =============================================================
 // Identify the public folder as a static directory
